@@ -1,0 +1,13 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: oauth2user
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/authorization_test?serverTimezone=UTC&userUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
